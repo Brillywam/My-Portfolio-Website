@@ -28,7 +28,6 @@ Welcome to my personal portfolio website! 🎉 This is where I showcase my journ
 ## 🛠️ **Technologies Used**
 - **HTML5**: For structuring the content.
 - **CSS3**: For styling and layout.
-- **Responsive Design**: Ensures compatibility with various devices.
 
 ---
 
