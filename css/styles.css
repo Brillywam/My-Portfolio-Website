@@ -1,0 +1,220 @@
+/* General body styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif; /* Sets a clean, readable font */
+    color: #ffffff; /* White text for contrast */
+    background-image: url('../images/Graphic Design/pexels-codioful-7135037.jpg'); /* Sets the background image for the entire website */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the background image */
+    background-attachment: fixed; /* Keeps the background fixed while scrolling */
+}
+
+/* Add an overlay effect for better readability */
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    z-index: -1; /* Places the overlay behind the content */
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    padding: 100px 20px; /* Adds padding for spacing */
+    position: relative; /* Allows positioning of overlay */
+    color: #ffffff; /* White text for contrast */
+}
+
+/* Welcome to My Portfolio Styling */
+header h1 {
+    position: relative; /* Ensures the text is above the overlay */
+    z-index: 2; /* Places the text above the overlay */
+    font-size: 3.5em; /* Increases font size */
+    margin: 0;
+    color: #3289d1; /* Teal color for the text */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Adds a subtle shadow for better visibility */
+    font-family: 'Georgia', serif; /* Adds a more elegant font */
+    letter-spacing: 2px; /* Adds spacing between letters */
+}
+
+/* Section Headings */
+h2, h3 {
+    color: #007acc; /* Blue color for section headings */
+    text-align: center;
+    margin-bottom: 20px;
+    text-decoration: underline; /* Underlines the section titles */
+}
+
+/* Section Styling */
+section {
+    padding: 40px 20px; /* Adds padding for spacing */
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background for sections */
+    border-radius: 8px; /* Adds rounded corners */
+    max-width: 90%; /* Ensures sections don't stretch too wide */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow for depth */
+    font-size: 1.2em; /* Increases font size for readability */
+    line-height: 1.6; /* Improves line spacing */
+    color: #333; /* Dark text color for better readability */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+/* Links Styling */
+a {
+    color: #007acc; /* Blue color for links */
+    text-decoration: none; /* Removes underline from links */
+    font-weight: bold; /* Makes the text bold */
+}
+
+a:hover {
+    color: #005b99; /* Darker blue color on hover */
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+    color: #ffffff; /* White text for contrast */
+    font-size: 1.2em; /* Increases font size for readability */
+}
+
+/* Navigation Bar */
+nav {
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+    position: sticky; /* Keeps the navigation bar fixed at the top */
+    top: 0;
+    z-index: 1000; /* Ensures the navigation bar is above other elements */
+    padding: 10px 20px;
+    text-align: right; /* Aligns the navigation bar to the right */
+}
+
+nav ul {
+    list-style: none; /* Removes default list styling */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Makes the list items horizontal */
+    justify-content: flex-end; /* Aligns the items to the right */
+}
+
+nav ul li {
+    margin-left: 20px; /* Adds spacing between the list items */
+}
+
+nav ul li a {
+    color: #ffffff; /* White text for links */
+    text-decoration: none; /* Removes underline from links */
+    font-size: 1.2em; /* Increases font size for better visibility */
+    font-weight: bold; /* Makes the text bold */
+    transition: color 0.3s ease; /* Adds a smooth transition effect on hover */
+}
+
+nav ul li a:hover {
+    color: #ffcc00; /* Gold color on hover */
+}
+
+/* About Section with Full-Screen Background and Blurred Text Area */
+#about {
+    background-image: url('../images/Graphic Design/background.jpg'); /* Correct path to the background image */
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center; /* Centers the background image */
+    color: #ffffff; /* White text for contrast */
+    text-align: center; /* Centers the text */
+    padding: 100px 20px; /* Adds padding for spacing */
+    position: relative; /* Allows positioning of the text container */
+    font-size: 1.5em; /* Increases font size for readability */
+}
+
+/* About Section Heading */
+#about h2 {
+    font-size: 2.5em; /* Increases font size for the heading */
+    color: #ffcc00; /* Gold color for the heading */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Adds a subtle shadow for better visibility */
+    margin-bottom: 20px;
+}
+
+/* Blurred background for text */
+#about .text-container {
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+    backdrop-filter: blur(5px); /* Adds a blur effect to the background */
+    padding: 20px; /* Adjusts padding for spacing */
+    border-radius: 10px; /* Adds rounded corners */
+    display: inline-block; /* Ensures the container wraps around the text */
+    max-width: 80%; /* Limits the width of the text container */
+    margin: 0 auto; /* Centers the text container */
+    margin-top: 150px; /* Adds space above the text container to avoid covering the face */
+}
+
+/* Image Slider Styling */
+.image-slider {
+    overflow-x: auto; /* Enables horizontal scrolling */
+    white-space: nowrap; /* Prevents line breaks for inline elements */
+    padding: 10px 0;
+    margin: 20px 0;
+}
+
+.image-container {
+    display: inline-flex; /* Aligns images horizontally */
+    gap: 20px; /* Adds spacing between images */
+}
+
+.image-container figure {
+    display: inline-block; /* Ensures each figure is treated as an inline block */
+    text-align: center; /* Centers the captions below the images */
+    margin: 0;
+}
+
+/* Image Styling */
+.image-container img {
+    width: 200px; /* Sets a fixed width for images */
+    height: 150px; /* Sets a fixed height for images */
+    object-fit: contain; /* Ensures the entire image fits within the dimensions without distortion */
+    border-radius: 8px; /* Adds rounded corners to images */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow for depth */
+    background-color: #f4f4f4; /* Adds a light gray background for images with transparent areas */
+}
+
+/* Caption Styling */
+.image-container figcaption {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #333; /* Dark text color for captions */
+    text-align: center; /* Centers the caption text */
+    max-width: 200px; /* Matches the width of the image */
+    word-wrap: break-word; /* Allows long words to break and wrap to the next line */
+    line-height: 1.2; /* Adjusts line spacing for better readability */
+    white-space: normal; /* Ensures text wraps to the next line */
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2.5em;
+    }
+
+    h2, h3 {
+        font-size: 1.8em; /* Adjusts font size for smaller screens */
+    }
+
+    .image-container img {
+        width: 150px; /* Reduces image size for smaller screens */
+        height: 100px;
+    }
+
+    section {
+        margin: 10px;
+        font-size: 1em; /* Adjusts font size for smaller screens */
+    }
+}
