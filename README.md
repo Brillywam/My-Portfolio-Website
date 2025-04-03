@@ -32,4 +32,8 @@ Welcome to my personal portfolio website! 🎉 This is where I showcase my journ
 
 ---
 
+<<<<<<< HEAD
 ## 📂 **File Structure**
+=======
+## 📂 **File Structure**
+>>>>>>> 1e5bfd4cb98d3669e57fc046580b3ac18a0cdeb7
