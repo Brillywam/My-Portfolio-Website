@@ -33,8 +33,4 @@ Here's a live demo of my website; https://brillywam.github.io/My-Portfolio-Websi
 
 ---
 
-<<<<<<< HEAD
 ## 📂 **File Structure**
-=======
-## 📂 **File Structure**
->>>>>>> 1e5bfd4cb98d3669e57fc046580b3ac18a0cdeb7
