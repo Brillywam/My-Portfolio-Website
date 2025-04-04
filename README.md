@@ -1,15 +1,14 @@
 # Brilliant's Portfolio 🌟
 
 Welcome to my personal portfolio website! 🎉 This is where I showcase my journey as a **Geoscientist**, **Graphic Designer**, and **Programmer**. Dive in and explore! 🚀
-
-Here's a live demo of my website; https://brillywam.github.io/My-Portfolio-Website/
+Here's a link to my website; https://brillywam.github.io/My-Portfolio-Website/
 
 ---
 
 ## 🌐 **Website Walkthrough**
 
 ### **Sections**
-1. **About Me** 🙋‍♂️  
+1. **About Me** 🙋🏿‍♀️  
    A quick intro about who I am and what I do.  
 
 2. **Education** 🎓  
@@ -34,3 +33,12 @@ Here's a live demo of my website; https://brillywam.github.io/My-Portfolio-Websi
 ---
 
 ## 📂 **File Structure**
+
+---
+
+## ❤️ **Credits**
+- **Developer**: Brilliant Wamukore Mwendwa  
+- **Images**: Personal works and designs.  
+- **Inspiration**: This portfolio was inspired by my passion for geology, design, and programming.  
+
+---
