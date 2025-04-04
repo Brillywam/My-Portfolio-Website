@@ -2,6 +2,8 @@
 
 Welcome to my personal portfolio website! 🎉 This is where I showcase my journey as a **Geoscientist**, **Graphic Designer**, and **Programmer**. Dive in and explore! 🚀
 
+Here's a live demo of my website; https://brillywam.github.io/My-Portfolio-Website/
+
 ---
 
 ## 🌐 **Website Walkthrough**
