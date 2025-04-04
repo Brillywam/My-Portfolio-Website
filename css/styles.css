@@ -107,6 +107,7 @@ nav ul {
     padding: 0;
     display: flex; /* Makes the list items horizontal */
     justify-content: flex-end; /* Aligns the items to the right */
+    flex-wrap: wrap; /* Allows items to wrap to the next line if needed */
 }
 
 nav ul li {
@@ -216,5 +217,19 @@ nav ul li a:hover {
     section {
         margin: 10px;
         font-size: 1em; /* Adjusts font size for smaller screens */
+    }
+
+    nav ul {
+        flex-direction: column; /* Stacks the navigation links vertically */
+        align-items: flex-start;
+    }
+
+    nav ul li {
+        margin-left: 0;
+        margin-bottom: 10px; /* Adds spacing between vertical links */
+    }
+
+    nav ul li a {
+        font-size: 1em; /* Reduces font size for smaller screens */
     }
 }
